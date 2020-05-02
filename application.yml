@@ -1,16 +1,4 @@
-server:
-  port: 8082  
-  
-spring:
-  cloud:
-     gateway:
-       routes:
-        - id: first-service  
-          uri: http://localhost:8083
-          predicates:
-          - Method=GET
-        - id: second-service  
-          uri: http://localhost:8084
-          predicates:
-          - Method=GET
-          
+db:
+ connection: jdbc:postgresql://localhost/test
+ user_name: postgres
+ password:  root
