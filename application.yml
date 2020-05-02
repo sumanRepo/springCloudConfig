@@ -1,4 +1,0 @@
-db:
- connection: jdbc:postgresql://localhost/test
- user_name: postgres
- password:  root
